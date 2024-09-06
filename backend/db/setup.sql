@@ -1,5 +1,5 @@
-DROP DATABASE IF EXISTS africa_encyclopedia_test;
-DROP DATABASE IF EXISTS africa_encyclopedia;
+DROP DATABASE IF EXISTS explore_africa_test;
+DROP DATABASE IF EXISTS explore_africa;
 
-CREATE DATABASE africa_encyclopedia_test;
-CREATE DATABASE africa_encyclopedia;
+CREATE DATABASE explore_africa_test;
+CREATE DATABASE explore_africa;
