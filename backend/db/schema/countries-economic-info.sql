@@ -3,7 +3,7 @@ CREATE TABLE countriesEconomicFacts (
     currency VARCHAR(50) NOT NULL,
     gdpInBillions FLOAT NOT NULL,
     gdpPerCapita INTEGER NOT NULL,
-    largestExport VARCHAR(20) NOT NULL
+    largestExport VARCHAR(20) NOT NULL,
 )
 
 INSERT INTO countriesEconomicFacts (currency, gdpInBillions, gdpPerCapita, largestExport)
