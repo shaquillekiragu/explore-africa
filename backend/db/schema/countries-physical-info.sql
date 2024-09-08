@@ -1,4 +1,5 @@
 CREATE TABLE countriesPhysicalFacts (
+    factsId SERIAL PRIMARY KEY,
     longestRiver VARCHAR(25),
     canAccessAnOcean BOOLEAN NOT NULL,
     highestPeak VARCHAR(25),

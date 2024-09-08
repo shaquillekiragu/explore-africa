@@ -1,4 +1,5 @@
 CREATE TABLE countriesEconomicFacts (
+    factsId SERIAL PRIMARY KEY,
     currency VARCHAR(50) NOT NULL,
     gdpInBillions FLOAT NOT NULL,
     gdpPerCapita INTEGER NOT NULL,
