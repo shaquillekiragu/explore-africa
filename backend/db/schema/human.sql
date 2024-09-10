@@ -1,5 +1,5 @@
 CREATE TABLE countriesHumanFacts (
-    factsId SERIAL PRIMARY KEY,
+    factsListId SERIAL PRIMARY KEY,
     capitalCity VARCHAR(20) NOT NULL,
     largestCity VARCHAR(20),
     populationInMillions FLOAT NOT NULL,

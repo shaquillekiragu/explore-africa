@@ -1,5 +1,5 @@
 CREATE TABLE countriesPoliticalFacts (
-    factsId SERIAL PRIMARY KEY,
+    factsListId SERIAL PRIMARY KEY,
     yearOfIndependence YEAR NOT NULL,
     formOfGov VARCHAR(20) NOT NULL,
     numberOfAdminDivisions INTEGER NOT NULL,
